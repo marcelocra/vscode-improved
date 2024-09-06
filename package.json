@@ -15,8 +15,25 @@
   "contributes": {
     "commands": [
       {
-        "command": "vscode-improved.helloWorld",
-        "title": "Hello World"
+        "command": "vscode-improved.showDateTimeNow",
+        "title": "Show current date and time"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Tokyo Night",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/tokyo-night-color-theme.json"
+      },
+      {
+        "label": "Tokyo Night Storm",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/tokyo-night-storm-color-theme.json"
+      },
+      {
+        "label": "Tokyo Night Light",
+        "uiTheme": "vs",
+        "path": "./src/themes/tokyo-night-light-color-theme.json"
       }
     ]
   },
