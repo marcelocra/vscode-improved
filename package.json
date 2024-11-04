@@ -20,6 +20,11 @@
       {
         "command": "vscode-improved.showDateTimeNow",
         "title": "Show current date and time"
+      },
+      {
+        "command": "vscode-improved.statusBarCountClicked",
+        "shortTitle": "Show additional file information",
+        "title": "Show additional file information when the status bar count is clicked"
       }
     ],
     "themes": [

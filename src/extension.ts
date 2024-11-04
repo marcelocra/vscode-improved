@@ -1,32 +1,18 @@
-// The module 'vscode' contains the VS Code extensibility API
-// Import the module and reference it with the alias vscode in your code below
 import * as vscode from "vscode";
 
-// This method is called when your extension is activated
-// Your extension is activated the very first time the command is executed
+import { createStatusBarDateTimeItem } from "./show-date-time";
+import { createStatusBarCounterItem } from "./status-bar-counter";
+
+/**
+ * This method is called when your extension is activated. Your extension is activated the very first time the command
+ * is executed.
+ */
 export function activate(context: vscode.ExtensionContext) {
-  // Use the console to output diagnostic information (console.log) and errors (console.error)
-  // This line of code will only be executed once when your extension is activated
-  console.log(
-    'Congratulations, your extension "vscode-improved" is now active!'
-  );
-
-  // The command has been defined in the package.json file
-  // Now provide the implementation of the command with registerCommand
-  // The commandId parameter must match the command field in package.json
-  const disposable = vscode.commands.registerCommand(
-    "vscode-improved.showDateTimeNow",
-    () => {
-      // The code you place here will be executed every time your command is executed
-      // Display a message box to the user
-      vscode.window.showInformationMessage(new Date().toLocaleString());
-    }
-  );
-
-  context.subscriptions.push(disposable);
+  createStatusBarDateTimeItem(context);
+  createStatusBarCounterItem(context);
 }
 
-// This method is called when your extension is deactivated
+/** This method is called when your extension is deactivated. */
 export function deactivate() {
   vscode.window.showInformationMessage("I hope to see you again! o/");
 }
