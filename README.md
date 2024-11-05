@@ -15,7 +15,9 @@ So far, none.
 
 ## Release Notes
 
-### 0.1.1 - Actually load themes
+### 0.1.2 - Change icon
+
+### 0.1.1 - Load themes correctly
 
 The themes were in the `./src` folder but need to be in the `./themes` folder. Because of that, they were not being loaded.
 
