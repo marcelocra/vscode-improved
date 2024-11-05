@@ -2,4 +2,6 @@ out
 dist
 node_modules
 .vscode-test/
-*.vsix
+
+# Allow this to be tracked, but using git lfs.
+# *.vsix
