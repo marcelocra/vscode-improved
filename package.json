@@ -1,56 +1,16 @@
 {
   "name": "vscode-improved",
   "displayName": "vscode-improved",
-  "description": "A VSCode Extension to help me learn VSCode API while improving my experience using VSCode.",
-  "version": "0.1.0",
+  "description": "Utilities, functions and themes used to improve developer experience (dx) in VSCode.",
+  "version": "0.1.1",
   "license": "BSD-3-Clause",
-  "engines": {
-    "vscode": "^1.92.0"
-  },
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [
-    "onStartupFinished"
-  ],
-  "main": "./dist/extension.js",
-  "icon": "icon.png",
-  "contributes": {
-    "commands": [
-      {
-        "command": "vscode-improved.showDateTimeNow",
-        "title": "Show current date and time"
-      },
-      {
-        "command": "vscode-improved.statusBarCountClicked",
-        "shortTitle": "Show additional file information",
-        "title": "Show additional file information when the status bar count is clicked"
-      }
-    ],
-    "themes": [
-      {
-        "label": "Tokyo Night",
-        "uiTheme": "vs-dark",
-        "path": "./src/themes/tokyo-night-color-theme.json"
-      },
-      {
-        "label": "Tokyo Night Storm",
-        "uiTheme": "vs-dark",
-        "path": "./src/themes/tokyo-night-storm-color-theme.json"
-      },
-      {
-        "label": "Tokyo Night Light",
-        "uiTheme": "vs",
-        "path": "./src/themes/tokyo-night-light-color-theme.json"
-      }
-    ]
-  },
   "scripts": {
     "//": "///////////////////////////////////////////////////////////////////",
     "//": "My scripts",
     "//": "///////////////////////////////////////////////////////////////////",
+    "vsce:msg": "echo 'Running with --no-dependencies for pnpm\n'...",
     "vsce": "vsce package --no-dependencies",
-    "prod": "run-s -l vsce",
+    "prod": "run-s -l vsce:msg vsce",
     "//": "///////////////////////////////////////////////////////////////////",
     "//": "Original scripts from the extension template",
     "//": "///////////////////////////////////////////////////////////////////",
@@ -83,6 +43,56 @@
     "prettier": "3.3.3",
     "typescript": "^5.5.4"
   },
+  "galleryBanner": {
+    "color": "#1f2335",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Keymaps",
+    "Programming Languages",
+    "Snippets",
+    "Themes",
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "icon": "icon.png",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-improved.showDateTimeNow",
+        "title": "Show current date and time"
+      },
+      {
+        "command": "vscode-improved.statusBarCountClicked",
+        "shortTitle": "Show additional file information",
+        "title": "Show additional file information when the status bar count is clicked"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Tokyo Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-night-color-theme.json"
+      },
+      {
+        "label": "Tokyo Night Storm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-night-storm-color-theme.json"
+      },
+      {
+        "label": "Tokyo Night Light",
+        "uiTheme": "vs",
+        "path": "./themes/tokyo-night-light-color-theme.json"
+      }
+    ]
+  },
+  "publisher": "marcelocra",
   "author": {
     "name": "Marcelo Almeida",
     "email": "2532492+marcelocra@users.noreply.github.com"

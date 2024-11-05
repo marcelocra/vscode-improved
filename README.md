@@ -15,6 +15,12 @@ So far, none.
 
 ## Release Notes
 
+### 0.1.1 - Actually load themes
+
+The themes were in the `./src` folder but need to be in the `./themes` folder. Because of that, they were not being loaded.
+
+It was weird because they worked in the development host, but not after packed. That is likely because the `./src` folder doesn't exist in the package but the `./themes` is kept.
+
 ### 0.1.0 - Initial release.
 
 - Fork [VSCode Tokyo Night](https://github.com/tokyo-night/tokyo-night-vscode-theme) theme.
