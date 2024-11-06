@@ -1,0 +1,106 @@
+{
+  "name": "Post-Apocalyptic Night",
+  "type": "dark",
+  "colors": {
+    // Editor Backgrounds and Text
+    "editor.background": "#2b2b2d", // Dark, ashy gray
+    "editor.foreground": "#c9c9b9", // Faded off-white
+    "editor.selectionBackground": "#3a3a3f", // Dark charcoal
+    "editor.lineHighlightBackground": "#333335", // Subtle highlight
+    "editorCursor.foreground": "#ffcc66", // Rusty yellow-orange
+
+    // Sidebar and Panels
+    "sideBar.background": "#262629",
+    "sideBar.foreground": "#b1b1a7", // Dusty light gray
+    "sideBarTitle.foreground": "#d3d3bd",
+    "panel.background": "#2e2e30",
+    "panel.border": "#3a3a3f",
+
+    // Activity Bar
+    "activityBar.background": "#262629",
+    "activityBar.foreground": "#ffab91", // Rusty orange
+    "activityBarBadge.background": "#c94f4f", // Dull red
+    "activityBarBadge.foreground": "#ffffff",
+
+    // Status Bar
+    "statusBar.background": "#262629",
+    "statusBar.foreground": "#9e9e87",
+
+    // Title Bar
+    "titleBar.activeBackground": "#2f2f31",
+    "titleBar.activeForeground": "#d3d3bd",
+    "titleBar.inactiveForeground": "#878783",
+
+    // Tabs
+    "tab.activeBackground": "#3a3a3f",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#262629",
+    "tab.inactiveForeground": "#9e9e87",
+
+    // Editor Gutter
+    "editorGutter.background": "#2b2b2d",
+    "editorGutter.modifiedBackground": "#ffcc66",
+    "editorGutter.addedBackground": "#99c794",
+    "editorGutter.deletedBackground": "#d46a6a",
+
+    // Scrollbars
+    "scrollbarSlider.background": "#5b5b5e",
+    "scrollbarSlider.hoverBackground": "#646467",
+
+    // Input and Dropdown
+    "input.background": "#3a3a3f",
+    "dropdown.background": "#3a3a3f",
+    "button.background": "#ffab91"
+  },
+  "semanticTokenColors": {
+    "comment": {
+      "foreground": "#848484",
+      "fontStyle": "italic"
+    },
+    "string": {
+      "foreground": "#d8bd89"
+    },
+    "number": {
+      "foreground": "#99c794"
+    },
+    "variable": {
+      "foreground": "#ffab91"
+    },
+    "variable.readonly": {
+      "foreground": "#77a3b1"
+    },
+    "parameter": {
+      "foreground": "#d4a169"
+    },
+    "keyword": {
+      "foreground": "#c94f4f"
+    },
+    "operator": {
+      "foreground": "#b4b79e"
+    },
+    "function": {
+      "foreground": "#77a3b1"
+    },
+    "class": {
+      "foreground": "#d4a169"
+    },
+    "namespace": {
+      "foreground": "#99c794"
+    },
+    "enum": {
+      "foreground": "#d8bd89"
+    },
+    "boolean": {
+      "foreground": "#d46a6a"
+    },
+    "struct": {
+      "foreground": "#77a3b1"
+    },
+    "macro": {
+      "foreground": "#ffcc66"
+    },
+    "annotation": {
+      "foreground": "#77a3b1"
+    }
+  }
+}
