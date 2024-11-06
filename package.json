@@ -77,6 +77,16 @@
     ],
     "themes": [
       {
+        "label": "Post-Modern Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/post-modern-dark-color-theme.json"
+      },
+      {
+        "label": "Post-Modern Light",
+        "uiTheme": "vs",
+        "path": "./themes/post-modern-light-color-theme.json"
+      },
+      {
         "label": "Post-Apocalyptic Night",
         "uiTheme": "vs-dark",
         "path": "./themes/post-apocalyptic-night-color-theme.json"
