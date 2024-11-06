@@ -77,6 +77,11 @@
     ],
     "themes": [
       {
+        "label": "Atom One Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/atom-one-dark-color-theme.json"
+      },
+      {
         "label": "Post-Modern Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/post-modern-dark-color-theme.json"
