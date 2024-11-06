@@ -15,6 +15,14 @@ So far, none.
 
 ## Release Notes
 
+### 0.1.3 - Add more themes and change icon color (for light/dark support)
+
+- Themes:
+  - Atom One Dark
+  - One Dark
+  - Post-Apocalyptic
+  - Post-Modern
+
 ### 0.1.2 - Change icon
 
 ### 0.1.1 - Load themes correctly

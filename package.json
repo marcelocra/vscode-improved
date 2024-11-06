@@ -2,7 +2,7 @@
   "name": "vscode-improved",
   "displayName": "vscode-improved",
   "description": "Utilities, functions and themes used to improve developer experience (dx) in VSCode.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "BSD-3-Clause",
   "scripts": {
     "//": "///////////////////////////////////////////////////////////////////",
