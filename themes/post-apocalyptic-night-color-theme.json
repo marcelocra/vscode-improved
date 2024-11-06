@@ -2,55 +2,26 @@
   "name": "Post-Apocalyptic Night",
   "type": "dark",
   "colors": {
-    // Editor Backgrounds and Text
-    "editor.background": "#2b2b2d", // Dark, ashy gray
-    "editor.foreground": "#c9c9b9", // Faded off-white
-    "editor.selectionBackground": "#3a3a3f", // Dark charcoal
-    "editor.lineHighlightBackground": "#333335", // Subtle highlight
-    "editorCursor.foreground": "#ffcc66", // Rusty yellow-orange
+    "editor.background": "#2b2b2d",
+    "editor.foreground": "#c9c9b9",
+    "editor.selectionBackground": "#3a3a3f",
+    "editor.lineHighlightBackground": "#333335",
+    "editorCursor.foreground": "#ffcc66",
 
-    // Sidebar and Panels
     "sideBar.background": "#262629",
-    "sideBar.foreground": "#b1b1a7", // Dusty light gray
-    "sideBarTitle.foreground": "#d3d3bd",
+    "sideBar.foreground": "#b1b1a7",
     "panel.background": "#2e2e30",
-    "panel.border": "#3a3a3f",
-
-    // Activity Bar
     "activityBar.background": "#262629",
-    "activityBar.foreground": "#ffab91", // Rusty orange
-    "activityBarBadge.background": "#c94f4f", // Dull red
-    "activityBarBadge.foreground": "#ffffff",
-
-    // Status Bar
+    "activityBar.foreground": "#ffab91",
+    "activityBarBadge.background": "#c94f4f",
     "statusBar.background": "#262629",
     "statusBar.foreground": "#9e9e87",
-
-    // Title Bar
-    "titleBar.activeBackground": "#2f2f31",
-    "titleBar.activeForeground": "#d3d3bd",
-    "titleBar.inactiveForeground": "#878783",
-
-    // Tabs
     "tab.activeBackground": "#3a3a3f",
-    "tab.activeForeground": "#ffffff",
     "tab.inactiveBackground": "#262629",
-    "tab.inactiveForeground": "#9e9e87",
 
-    // Editor Gutter
     "editorGutter.background": "#2b2b2d",
     "editorGutter.modifiedBackground": "#ffcc66",
-    "editorGutter.addedBackground": "#99c794",
-    "editorGutter.deletedBackground": "#d46a6a",
-
-    // Scrollbars
-    "scrollbarSlider.background": "#5b5b5e",
-    "scrollbarSlider.hoverBackground": "#646467",
-
-    // Input and Dropdown
-    "input.background": "#3a3a3f",
-    "dropdown.background": "#3a3a3f",
-    "button.background": "#ffab91"
+    "scrollbarSlider.background": "#5b5b5e"
   },
   "semanticTokenColors": {
     "comment": {
@@ -101,6 +72,31 @@
     },
     "annotation": {
       "foreground": "#77a3b1"
+    },
+    "type": {
+      "foreground": "#c94f4f"
+    },
+    "property": {
+      "foreground": "#ffcc66"
+    },
+    // Svelte-specific tokens
+    "svelteElement": {
+      "foreground": "#ffab91" // Custom Svelte components
+    },
+    "svelteTag.html": {
+      "foreground": "#d4a169" // Standard HTML tags in Svelte
+    },
+    "svelteScript": {
+      "foreground": "#99c794" // Embedded JavaScript expressions
+    },
+    "svelteStyle": {
+      "foreground": "#ffcc66" // Style tags and CSS in Svelte
+    },
+    "svelteTransition": {
+      "foreground": "#c94f4f" // Svelte transition directives
+    },
+    "svelteDirective": {
+      "foreground": "#d46a6a" // Directives like `bind`, `if`, `each`
     }
   }
 }
