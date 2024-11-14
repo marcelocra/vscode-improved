@@ -1,6 +1,6 @@
 import * as vscode from "vscode";
 
-import { createStatusBarDateTimeItem } from "./show-date-time";
+import { createStatusBarDateTimeItem } from "./status-bar-date-time";
 import { createStatusBarCounterItem } from "./status-bar-counter";
 
 /**
