@@ -129,27 +129,27 @@
       {
         "label": "Andromeda",
         "uiTheme": "vs-dark",
-        "path": "./themes/Andromeda-color-theme.json"
+        "path": "./themes/Andromeda/Andromeda-color-theme.json"
       },
       {
         "label": "Andromeda Bordered",
         "uiTheme": "vs-dark",
-        "path": "./themes/Andromeda-color-theme-bordered.json"
+        "path": "./themes/Andromeda/Andromeda-color-theme-bordered.json"
       },
       {
         "label": "Andromeda Italic Bordered",
         "uiTheme": "vs-dark",
-        "path": "./themes/Andromeda-italic-color-theme-bordered.json"
+        "path": "./themes/Andromeda/Andromeda-italic-color-theme-bordered.json"
       },
       {
         "label": "Andromeda Italic",
         "uiTheme": "vs-dark",
-        "path": "./themes/Andromeda-italic-color-theme.json"
+        "path": "./themes/Andromeda/Andromeda-italic-color-theme.json"
       },
       {
         "label": "Andromeda Colorizer",
         "uiTheme": "vs-dark",
-        "path": "./themes/Andromeda-colorizer.json"
+        "path": "./themes/Andromeda/Andromeda-colorizer.json"
       }
     ]
   },
