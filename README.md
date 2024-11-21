@@ -15,6 +15,8 @@ So far, none.
 
 ## Release Notes
 
+### 0.3.0 - Add One Dark Pro theme
+
 ### 0.2.0 - Add Andromeda theme
 
 ### 0.1.3 - Add more themes and change icon color (for light/dark support)
