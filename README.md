@@ -15,6 +15,8 @@ So far, none.
 
 ## Release Notes
 
+### 0.4.0 - Archive unused themes, organize used ones and add One Dark Pro
+
 ### 0.3.0 - Add One Dark Pro theme
 
 ### 0.2.0 - Add Andromeda theme
