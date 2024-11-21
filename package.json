@@ -77,41 +77,6 @@
     ],
     "themes": [
       {
-        "label": "Atom One Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/atom-one-dark-color-theme.json"
-      },
-      {
-        "label": "Post-Modern Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/post-modern-dark-color-theme.json"
-      },
-      {
-        "label": "Post-Modern Light",
-        "uiTheme": "vs",
-        "path": "./themes/post-modern-light-color-theme.json"
-      },
-      {
-        "label": "Post-Apocalyptic Night",
-        "uiTheme": "vs-dark",
-        "path": "./themes/post-apocalyptic-night-color-theme.json"
-      },
-      {
-        "label": "Post-Apocalyptic Dusty Dawn",
-        "uiTheme": "vs",
-        "path": "./themes/post-apocalyptic-dusty-dawn-color-theme.json"
-      },
-      {
-        "label": "One Dark Semantic",
-        "uiTheme": "vs-dark",
-        "path": "./themes/one-dark-semantic-color-theme.json"
-      },
-      {
-        "label": "One Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/one-dark-color-theme.json"
-      },
-      {
         "label": "Tokyo Night",
         "uiTheme": "vs-dark",
         "path": "./themes/tokyo-night-color-theme.json"
