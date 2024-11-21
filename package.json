@@ -79,17 +79,17 @@
       {
         "label": "Tokyo Night",
         "uiTheme": "vs-dark",
-        "path": "./themes/tokyo-night-color-theme.json"
+        "path": "./themes/tokyo-night/tokyo-night-color-theme.json"
       },
       {
         "label": "Tokyo Night Storm",
         "uiTheme": "vs-dark",
-        "path": "./themes/tokyo-night-storm-color-theme.json"
+        "path": "./themes/tokyo-night/tokyo-night-storm-color-theme.json"
       },
       {
         "label": "Tokyo Night Light",
         "uiTheme": "vs",
-        "path": "./themes/tokyo-night-light-color-theme.json"
+        "path": "./themes/tokyo-night/tokyo-night-light-color-theme.json"
       },
       {
         "label": "Andromeda",
