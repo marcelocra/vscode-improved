@@ -1,5 +1,5 @@
 {
-  "name": "ThemerDev marcelocra dark 1",
+  "name": "Spiral Tattoo Ink Dark Dim",
   "type": "dark",
   "colors": {
     "focusBorder": "#A600FF",
@@ -509,7 +509,7 @@
       "name": "Entity",
       "scope": "entity",
       "settings": {
-        "foreground": "#00FBFF"
+        "foreground": "#00CBFF"
       }
     },
     {
@@ -523,7 +523,7 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#A600FF"
+        "foreground": "#A699FF"
       }
     },
     {
@@ -544,7 +544,8 @@
       "name": "Support",
       "scope": "support",
       "settings": {
-        "foreground": "#00FBFF"
+        "foreground": "#A699FF",
+        "fontStyle": "underline"
       }
     },
     {
