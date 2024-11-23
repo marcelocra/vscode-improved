@@ -15,9 +15,11 @@ So far, none.
 
 ## Release Notes
 
-### 0.5.0 - Add my own color theme
+### 0.5.0 - Add my own color theme, Spiral Tattoo Ink Dark Dim
 
-Created with help from [themer.dev](https://themer.dev/).
+Created initially with [themer.dev](https://themer.dev/), changing some elements later.
+
+This might not be the final version yet, as I plan to use it and test it more.
 
 ### 0.4.0 - Archive unused themes, organize used ones and add One Dark Pro
 
