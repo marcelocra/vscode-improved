@@ -15,6 +15,12 @@ So far, none.
 
 ## Release Notes
 
+### 0.5.1 - Make some changes to Spiral Tattoo Ink Dark Dim
+
+- comment not supported/allowed features
+- add transparency
+- remove underline in 'support'
+
 ### 0.5.0 - Add my own color theme, Spiral Tattoo Ink Dark Dim
 
 Created initially with [themer.dev](https://themer.dev/), changing some elements later.

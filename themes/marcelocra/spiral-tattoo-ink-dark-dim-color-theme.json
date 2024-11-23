@@ -92,7 +92,7 @@
     "sideBarSectionHeader.background": "#6D7C8B",
     "sideBarSectionHeader.foreground": "#E2E5E8",
     "sideBarSectionHeader.border": "#33475C",
-    "minimap.findMatchHighlight": "#FFA70F",
+    "minimap.findMatchHighlight": "#FFA70Faa",
     "minimap.selectionHighlight": "#00EEFF80",
     "minimap.errorHighlight": "#EE00FF80",
     "minimap.warningHighlight": "#D2282880",
@@ -139,12 +139,12 @@
     "editor.selectionBackground": "#00EEFF33",
     "editor.selectionForeground": "#FFFFFF",
     "editor.inactiveSelectionBackground": "#00EEFF33",
-    "editor.selectionHighlightBackground": "#506173",
+    "editor.selectionHighlightBackground": "#506173aa",
     "editor.wordHighlightBackground": "#A600FF33",
     "editor.wordHighlightStrongBackground": "#FF00F733",
     "editor.findMatchBackground": "#FFA70F3f",
     "editor.findMatchHighlightBackground": "#FFA70F33",
-    "editor.findRangeHighlightBackground": "#506173",
+    "editor.findRangeHighlightBackground": "#506173aa",
     "editor.hoverHighlightBackground": "#6D7C8B7f",
     "editor.lineHighlightBackground": "#33475C",
     "editor.lineHighlightBorder": "#506173",
@@ -152,8 +152,8 @@
     "editor.rangeHighlightBackground": "#FFA70F33",
     "editor.symbolHighlightBackground": "#A600FF33",
     "editorWhitespace.foreground": "#506173",
-    "editorIndentGuide.background": "#506173",
-    "editorIndentGuide.activeBackground": "#6D7C8B",
+    "editorIndentGuide.background1": "#506173",
+    "editorIndentGuide.activeBackground1": "#6D7C8B",
     "editorRuler.foreground": "#506173",
     "editorCodeLens.foreground": "#C5CAD0",
     "editorLightBulb.foreground": "#FFA70F",
@@ -166,7 +166,6 @@
     "editorBracketHighlight.foreground4": "#A600FF",
     "editorBracketHighlight.foreground5": "#00FF00",
     "editorBracketHighlight.foreground6": "#00EEFF",
-    "editorBracketHighlight.unexpectedBracket": "#EE00FF",
     "editor.foldBackground": "#50617366",
     "editorOverviewRuler.border": "#506173",
     "editorOverviewRuler.findMatchForeground": "#FFA70Fbf",
@@ -256,7 +255,6 @@
     "panelSectionHeader.background": "#6D7C8B",
     "panelSectionHeader.foreground": "#E2E5E8",
     "panelSectionHeader.border": "#33475C",
-    "imagePreview.border": "#506173",
     "statusBar.background": "#00EEFF",
     "statusBar.foreground": "#33475C",
     "statusBar.border": "#33475C",
@@ -351,19 +349,12 @@
     "testing.peekBorder": "#8A96A2",
     "testing.message.error.decorationForeground": "#EE00FF",
     "testing.message.error.lineBackground": "#EE00FF3f",
-    "testing.message.warning.decorationForeground": "#D22828",
-    "testing.message.warning.lineBackground": "#D228283f",
     "testing.message.info.decorationForeground": "#00EEFF",
     "testing.message.info.lineBackground": "#00EEFF3f",
-    "testing.message.hint.decorationForeground": "#FF00F7",
-    "testing.message.hint.lineBackground": "#FF00F73f",
     "welcomePage.background": "#33475C",
-    "welcomePage.buttonBackground": "#506173",
-    "welcomePage.buttonHoverBackground": "#6D7C8B",
     "welcomePage.progress.background": "#00EEFF",
     "welcomePage.progress.foreground": "#33475C",
     "walkThrough.embeddedEditorBackground": "#33475C",
-    "scm.providerBorder": "#6D7C8B",
     "gitDecoration.addedResourceForeground": "#00FF00",
     "gitDecoration.modifiedResourceForeground": "#FFA70F",
     "gitDecoration.stageModifiedResourceForeground": "#00FBFF",
@@ -386,8 +377,6 @@
     "settings.numberInputBackground": "#506173",
     "settings.numberInputForeground": "#E2E5E8",
     "settings.focusedRowBackground": "#33475C",
-    "notebook.focusedRowBorder": "#A600FF",
-    "notebook.rowHoverBackground": "#5061737f",
     "breadcrumb.foreground": "#C5CAD0",
     "breadcrumb.background": "#33475C",
     "breadcrumb.focusForeground": "#E2E5E8",
@@ -458,7 +447,6 @@
     "notebook.focusedCellBackground": "#5061737f",
     "notebook.cellHoverBackground": "#5061733f",
     "notebook.focusedCellBorder": "#A600FF",
-    "notebook.focusedCellShadow": "#0000003f",
     "notebook.selectedCellBorder": "#A8B0B9",
     "notebook.cellStatusBarItemHoverBackground": "#5061733f",
     "notebook.cellInsertionIndicator": "#00FF00",
@@ -475,20 +463,39 @@
     "charts.orange": "#D22828",
     "charts.green": "#00FF00",
     "charts.purple": "#A600FF"
+
+    // Not allowed:
+
+    // "editorBracketHighlight.unexpectedBracket": "#EE00FF",
+    // "imagePreview.border": "#506173",
+    // "testing.message.warning.decorationForeground": "#D22828",
+    // "testing.message.warning.lineBackground": "#D228283f",
+    // "testing.message.hint.decorationForeground": "#FF00F7",
+    // "testing.message.hint.lineBackground": "#FF00F73f",
+    // "welcomePage.buttonBackground": "#506173",
+    // "welcomePage.buttonHoverBackground": "#6D7C8B",
+    // "scm.providerBorder": "#6D7C8B",
+    // "notebook.focusedRowBorder": "#A600FF",
+    // "notebook.rowHoverBackground": "#5061737f",
+    // "notebook.focusedCellShadow": "#0000003f",
   },
   "tokenColors": [
     {
       "settings": {
-        "background": "#33475C",
-        "foreground": "#E2E5E8",
-        "selectionBorder": "#C5CAD0",
-        "findHighlight": "#FFA70F",
-        "findHighlightForeground": "#33475C",
-        "activeGuide": "#D22828",
-        "bracketsForeground": "#E2E5E87F",
-        "bracketsOptions": "stippled_underline",
-        "bracketsContentsForeground": "#E2E5E87F",
-        "tagsOptions": "stippled_underline"
+        "foreground": "#E2E5E8"
+
+        // Not supported:
+        //    "background": "#33475C",
+
+        // Not allowed:
+        //    "selectionBorder": "#C5CAD0",
+        //    "findHighlight": "#FFA70F",
+        //    "findHighlightForeground": "#33475C",
+        //    "activeGuide": "#D22828",
+        //    "bracketsForeground": "#E2E5E87F",
+        //    "bracketsOptions": "stippled_underline",
+        //    "bracketsContentsForeground": "#E2E5E87F",
+        //    "tagsOptions": "stippled_underline"
       }
     },
     {
@@ -544,8 +551,7 @@
       "name": "Support",
       "scope": "support",
       "settings": {
-        "foreground": "#A699FF",
-        "fontStyle": "underline"
+        "foreground": "#A699FF"
       }
     },
     {
