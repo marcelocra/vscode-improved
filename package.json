@@ -2,7 +2,7 @@
   "name": "vscode-improved",
   "displayName": "vscode-improved",
   "description": "Utilities, functions and themes used to improve developer experience (dx) in VSCode.",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "license": "BSD-3-Clause",
   "scripts": {
     "//": "///////////////////////////////////////////////////////////////////",
@@ -62,7 +62,7 @@
     "onStartupFinished"
   ],
   "main": "./dist/extension.js",
-  "icon": "icon.png",
+  "icon": "./assets/icon.png",
   "contributes": {
     "commands": [
       {
@@ -135,6 +135,11 @@
         "label": "One Dark Pro Mix",
         "uiTheme": "vs-dark",
         "path": "./themes/OneDark-Pro/OneDark-Pro-mix.json"
+      },
+      {
+        "label": "Spiral Tattoo Ink Dark Dim",
+        "uiTheme": "vs-dark",
+        "path": "./themes/marcelocra/spiral-tattoo-ink-dark-dim-color-theme.json"
       }
     ]
   },

@@ -15,6 +15,10 @@ So far, none.
 
 ## Release Notes
 
+### 0.5.0 - Add my own color theme
+
+Created with help from [themer.dev](https://themer.dev/).
+
 ### 0.4.0 - Archive unused themes, organize used ones and add One Dark Pro
 
 ### 0.3.0 - Add One Dark Pro theme
