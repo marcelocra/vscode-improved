@@ -181,7 +181,8 @@
     "editorOverviewRuler.infoForeground": "#00EEFF7f",
     "editorOverviewRuler.bracketMatchForeground": "#8A96A2",
     "editorError.foreground": "#EE00FF",
-    "editorError.border": "#FFFFFF",
+    // Defines a double border below the squiggly line (which is defined by editorError.foreground). It is bad.
+    // "editorError.border": "#FFFFFF",
     "editorWarning.foreground": "#D22828",
     "editorWarning.border": "#E2E5E8",
     "editorInfo.foreground": "#00EEFF",
