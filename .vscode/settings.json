@@ -15,5 +15,6 @@
   "editor.fontFamily": "Victor Mono",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss07', 'ss08'",
   "editor.fontWeight": "400",
-  "editor.fontSize": 19
+  "editor.fontSize": 19,
+  "window.zoomLevel": 0
 }

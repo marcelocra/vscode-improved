@@ -15,11 +15,14 @@ So far, none.
 
 ## Release Notes
 
-### 0.5.1 - Make some changes to Spiral Tattoo Ink Dark Dim
+### 0.5.1 - Change colors in the Spiral Tattoo Ink Dark Dim
 
 - comment not supported/allowed features
 - add transparency
 - remove underline in 'support'
+- avoid using color #A600FF in bg, as it doesn't give good contrast
+- change git decoration colors
+- many more, see diff
 
 ### 0.5.0 - Add my own color theme, Spiral Tattoo Ink Dark Dim
 
