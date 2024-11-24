@@ -2,7 +2,7 @@
   "name": "vscode-improved",
   "displayName": "vscode-improved",
   "description": "Utilities, functions and themes used to improve developer experience (dx) in VSCode.",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "license": "BSD-3-Clause",
   "scripts": {
     "//": "///////////////////////////////////////////////////////////////////",
@@ -11,7 +11,8 @@
     "vsix-with-current-version-exists": "./bin/vsix-with-current-version-exists.sh",
     "using-pnpm-warning": "echo 'Running with --no-dependencies for pnpm\n'...",
     "vsce": "vsce package --no-dependencies",
-    "prod": "run-s -l vsix-with-current-version-exists using-pnpm-warning vsce",
+    "move-to-releases": "mv ./vscode-improved-*.vsix ./releases/",
+    "prod": "run-s -l vsix-with-current-version-exists using-pnpm-warning vsce move-to-releases",
     "//": "///////////////////////////////////////////////////////////////////",
     "//": "Original scripts from the extension template",
     "//": "///////////////////////////////////////////////////////////////////",

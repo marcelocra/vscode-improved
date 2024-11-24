@@ -15,7 +15,9 @@ So far, none.
 
 ## Release Notes
 
-### 0.5.1 - Change colors in the Spiral Tattoo Ink Dark Dim
+### 0.5.2 - [Spiral Tattoo Ink Dark Dim] Change error and warning colors
+
+### 0.5.1 - [Spiral Tattoo Ink Dark Dim] Change colors
 
 - comment not supported/allowed features
 - add transparency

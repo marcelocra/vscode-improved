@@ -3,7 +3,7 @@ main () {
 
     echo "Checking if there is already a $filename file..."
 
-    if [ -f $filename ]; then
+    if [ -f ./releases/$filename ]; then
         echo '------------------------------------- ERROR -------------------------------------'
         echo "$filename already exists. Please, update the package.json's"
         echo 'version before running this script again. Or remove the file, IF YOU'
