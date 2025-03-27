@@ -15,6 +15,12 @@ So far, none.
 
 ## Release Notes
 
+## [0.6.0] - 2025-03-27 15:57
+
+### Added
+
+- Night Owl theme
+
 ### 0.5.2 - [Spiral Tattoo Ink Dark Dim] Change error and warning colors
 
 ### 0.5.1 - [Spiral Tattoo Ink Dark Dim] Change colors

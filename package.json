@@ -2,7 +2,7 @@
   "name": "vscode-improved",
   "displayName": "vscode-improved",
   "description": "Utilities, functions and themes used to improve developer experience (dx) in VSCode.",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "license": "BSD-3-Clause",
   "scripts": {
     "//": "///////////////////////////////////////////////////////////////////",
@@ -13,6 +13,8 @@
     "vsce": "vsce package --no-dependencies",
     "move-to-releases": "mv ./vscode-improved-*.vsix ./releases/",
     "prod": "run-s -l vsix-with-current-version-exists using-pnpm-warning vsce move-to-releases",
+    "release": "pnpm run prod",
+    "create-release": "pnpm run prod",
     "//": "///////////////////////////////////////////////////////////////////",
     "//": "Original scripts from the extension template",
     "//": "///////////////////////////////////////////////////////////////////",
@@ -141,6 +143,26 @@
         "label": "Spiral Tattoo Ink Dark Dim",
         "uiTheme": "vs-dark",
         "path": "./themes/marcelocra/spiral-tattoo-ink-dark-dim-color-theme.json"
+      },
+      {
+        "label": "Night Owl",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Night Owl/dark-color-theme.json"
+      },
+      {
+        "label": "Night Owl (No Italics)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Night Owl/dark-color-theme-no-italic.json"
+      },
+      {
+        "label": "Night Owl Light",
+        "uiTheme": "vs",
+        "path": "./themes/Night Owl/light-color-theme.json"
+      },
+      {
+        "label": "Night Owl Light (No Italics)",
+        "uiTheme": "vs",
+        "path": "./themes/Night Owl/light-color-theme-no-italic.json"
       }
     ]
   },
