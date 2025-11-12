@@ -1,0 +1,108 @@
+{
+  "name": "🚀 DevMagic",
+
+  // IMPORTANT: Each image might have a different default user.
+  // Be sure to set `remoteUser` appropriately.
+
+  // Node.js with TypeScript (~2GB) on Debian 12 (Bookworm).
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:24-bookworm",
+  "remoteUser": "node",
+
+  // Universal, with lots of things (~10GB) on Ubuntu 24 (Noble).
+  // "image": "mcr.microsoft.com/devcontainers/universal:3-noble",
+  // "remoteUser": "codespace",
+
+  "containerEnv": {
+    "TZ": "America/Sao_Paulo",
+    "LC_ALL": "en_US.UTF-8",
+    "LANG": "en_US.UTF-8",
+    "MCRA_USE_MISE": "${localEnv:MCRA_USE_MISE:false}",
+    "OLLAMA_HOST": "${localEnv:OLLAMA_HOST:http://host.docker.internal:11434}"
+  },
+  "postCreateCommand": "curl -fsSL https://raw.githubusercontent.com/marcelocra/dotfiles/main/setup/devcontainer-setup.sh | bash",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "upgradePackages": "false", // Skip package updates to speed up builds.
+      "configureZshAsDefaultShell": "true",
+      "installOhMyZsh": "true"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "moby": true,
+      "dockerDashComposeVersion": "v2"
+    },
+    "ghcr.io/devcontainers/features/git-lfs:1": {}
+  },
+  "mounts": [
+    // SSH credentials for Git operations and SSH-based authentication/signing.
+    // Mount as read-only to prevent accidental modification of host SSH keys.
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/node/.ssh-from-host,type=bind,readonly",
+
+    // GitHub CLI credentials for seamless GitHub integration.
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.config/gh,target=/home/node/.config/gh,type=bind,consistency=cached",
+
+    // Gemini CLI credentials for AI assistance tools.
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.gemini,target=/home/node/.gemini,type=bind,consistency=cached",
+
+    // Claude credentials and configuration for AI development tools.
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.claude,target=/home/node/.claude,type=bind,consistency=cached",
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.claude.json,target=/home/node/.claude.json,type=bind,consistency=cached",
+
+    // Share Ollama models with host.
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ollama,target=/home/node/.ollama,type=bind,consistency=cached"
+  ],
+
+  // Port forwarding for development services.
+  "forwardPorts": [
+    11434 // Ollama API server for local LLM development.
+  ],
+
+  // Set custom hostname for the container.
+  "runArgs": ["--hostname=automaton"],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        // Python development.
+        "charliermarsh.ruff",
+        "ms-python.python",
+
+        // JavaScript/TypeScript development.
+        "dbaeumer.vscode-eslint",
+        "denoland.vscode-deno",
+        "esbenp.prettier-vscode",
+
+        // Tailwind CSS support.
+        "bradlc.vscode-tailwindcss",
+
+        // Git and version control.
+        "eamodio.gitlens",
+
+        // Code formatting and standards.
+        "EditorConfig.EditorConfig",
+
+        // GitHub integration.
+        "GitHub.codespaces",
+        "GitHub.copilot-chat",
+        "GitHub.copilot",
+        "GitHub.github-vscode-theme",
+        "GitHub.vscode-pull-request-github",
+
+        // AI and LLM tools.
+        "google.gemini-cli-vscode-ide-companion",
+        "Anthropic.claude-code",
+
+        // Container and Docker support.
+        "ms-azuretools.vscode-containers",
+        "ms-azuretools.vscode-docker",
+
+        // Remote development support.
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-ssh-edit",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+
+        // Accessibility and language support.
+        "ms-vscode.vscode-speech-language-pack-pt-br",
+        "ms-vscode.vscode-speech"
+      ]
+    }
+  }
+}

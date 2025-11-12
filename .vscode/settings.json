@@ -9,12 +9,5 @@
     "dist": true // set this to false to include "dist" folder in search results
   },
   // Turn off tsc task auto detection since we have the necessary tasks as npm scripts
-  "typescript.tsc.autoDetect": "off",
-
-  // Test this font in a project.
-  "editor.fontFamily": "Victor Mono",
-  "editor.fontLigatures": "'ss01', 'ss02', 'ss07', 'ss08'",
-  "editor.fontWeight": "800",
-  "editor.fontSize": 12,
-  "window.zoomLevel": 0
+  "typescript.tsc.autoDetect": "off"
 }
